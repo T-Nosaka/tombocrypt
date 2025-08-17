@@ -1,0 +1,13 @@
+# Node.js
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+
+# VS Code extension build output
+/dist/
+*.vsix
+# Visual Studio Code settings
+.vscode/
+.vscode-test/
