@@ -51,6 +51,10 @@ This will create a `tombocrypt-0.0.1.vsix` file in your project directory, which
 
 ## Release Notes
 
+### 0.0.2
+
+bug fix.
+
 ### 0.0.1
 
 Initial release of the extension with basic decryption functionality.

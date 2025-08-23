@@ -9,7 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(
 		vscode.workspace.onDidOpenTextDocument(async (document) => {
 			// 拡張子が '.chi' のファイルか確認
-			if (document.fileName.endsWith('.chi')) {
+			if (document.fileName.toLowerCase().endsWith('.chi')) {
 				// パスコードを尋ねる
 				const passcode = await vscode.window.showInputBox({
 					prompt: 'Please enter the passcode for this .chi file.',
